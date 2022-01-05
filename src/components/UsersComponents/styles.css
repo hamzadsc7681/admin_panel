@@ -1,0 +1,86 @@
+.subscription{
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.tenure{
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    margin-left: 10px;
+}
+
+.email_address{
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.email{
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    margin-left: 10px;
+}
+.shipping_address{
+    color: #1e3a8a;
+    font-weight: bold;
+
+}
+
+.address{
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    margin-left: 10px;
+}
+
+.contact_number{
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.number{
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    margin-left: 10px;
+}
+
+.edit{
+    background-color: #1e3a8a;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border-radius: 7px;
+    
+}
+
+@media screen and (max-width:968px) {
+   .subscription{
+       font-size: 16px;
+   } 
+   .tenure{
+       font-size: 16px;
+       margin-left: 2px !important;
+   }
+   .email_address{
+       font-size: 16px;
+   }
+   .email{
+       font-size: 14px;
+       margin-left: 2px !important;
+   }
+   .contact_number{
+       font-size: 16px;
+   }
+   .number{
+       font-size: 16px;
+       margin-left: 2px;
+   }
+   .shipping_address{
+       font-size: 16px;
+   }
+   .address{
+       font-size: 16px;
+       margin-left: 2px;
+   }
+   .edit{
+    margin-top: 10px;
+   }
+}
